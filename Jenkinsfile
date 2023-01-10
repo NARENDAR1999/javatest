@@ -12,7 +12,7 @@ pipeline {
         }
     }
 
-    stage('Test') {
+    stage('Test1') {
       steps {
           echo "${env.BUILD_NUMBER}"
           echo "${env.BUILD_URL}"
